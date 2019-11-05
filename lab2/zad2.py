@@ -18,4 +18,4 @@ def scalar(v1, v2):
     return numpy.dot(v1, v2)
 
 
-print(angle([1, 2], [3, 4]))
+print(angle([1, 2, 3], [-2, -1, 5]))
