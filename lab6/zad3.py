@@ -1,15 +1,12 @@
-import pandas as pd
-import pydot
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 
-from sklearn import tree
-from sklearn.externals.six import StringIO
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
 
 df = pd.read_csv('diabetes.csv')
 
